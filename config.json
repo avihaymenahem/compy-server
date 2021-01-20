@@ -1,0 +1,29 @@
+{
+    "resolutions" : [
+        {
+            "width" : 1920,
+            "height" : 1280
+        },
+        {
+            "width" : 1024,
+            "height": 768
+        }
+    ],
+    "puppeteer" : {
+        "ignoreDefaultArgs" : ["--disable-extensions"],
+        "headless" : false,
+        "devtools" : false
+    },
+    "viewport" : {
+        "width": 1920,
+        "height": 1280
+    },
+    "logDir" : "logs/",
+    "imgExt": "png",
+    "ssDir" : {
+        "base" : "screenshots/",
+        "current" : "current/",
+        "original" : "original/",
+        "failed" : "failed/"
+    }
+}
